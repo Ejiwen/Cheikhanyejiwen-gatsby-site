@@ -1,0 +1,21 @@
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100vh;
+  /* padding: 5px 15px; */
+  align-content: center;
+}
+
+.sideBar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.footer {
+  font-size: 0.7rem;
+  /* padding: 0; */
+  text-align: center;
+}
