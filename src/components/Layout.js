@@ -6,9 +6,11 @@ import "../styles/style.css"
 
 const Layout = ({ children }) => {
   return (
-    <Grid gap={0} columns={["20% 80%"]}>
-      <Box className="sideBar" bg="background.0" p={2} sx={{ height: "100vh" }}>
-        <LeftSide />
+    <Grid gap={0} columns={["22% 78%"]}>
+      <Box className="sideBar" bg="background.0" sx={{ height: "100vh" }}>
+        <Container>
+          <LeftSide />{" "}
+        </Container>
       </Box>
       <Box p={2} bg="background.1">
         <Container>

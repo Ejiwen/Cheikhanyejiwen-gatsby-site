@@ -52,6 +52,9 @@ export const theme = {
       h3: {
         color: "secondary",
       },
+      h2: {
+        color: "secondary",
+      },
       span: {
         fontSize: 1,
       },
@@ -72,7 +75,8 @@ export const theme = {
   layout: {
     container: {
       color: "text",
-      margin: 5,
+      padding: 5,
+      height: "100%",
     },
   },
 
@@ -82,14 +86,11 @@ export const theme = {
     },
     h2: {
       fontSize: 32,
-      fontFamily: "heading",
       fontWeight: "heading",
       color: "secondary",
-      mt: 4,
-      mb: 2,
     },
     h3: {
-      color: "red",
+      color: "secondary",
     },
   },
 }
