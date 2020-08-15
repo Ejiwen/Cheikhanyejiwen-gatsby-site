@@ -1,10 +1,11 @@
 export const theme = {
   useBodyStyles: true,
   breakpoints: ["40em", "56em", "64em"],
-  space: [0, 4, 8, 16, 32, 40],
+  space: [0, 4, 8, 16, 32, 40, 64, 128, 256, 512],
   initialColorModeName: "light",
   colors: {
-    text: "black",
+    text: "#4D5362",
+    accent: ["#eebb4d", "white"],
     background: ["#ddd", "#f8f9fc"],
     primary: "#639",
     secondary: "#462121",
@@ -41,6 +42,18 @@ export const theme = {
 
   text: {
     heading: {},
+    menu: {
+      // border: "solid red 2px",
+      mt: 4,
+      pb: 4,
+      pl: 6,
+    },
+
+    contacts: {
+      color: "text",
+      opacity: ".5",
+      pb: 0,
+    },
 
     posts: {
       color: "text",
@@ -85,13 +98,22 @@ export const theme = {
       color: "text",
     },
     h2: {
-      fontSize: 32,
-      fontWeight: "heading",
-      color: "secondary",
+      // fontSize: 32,
+      // fontWeight: "heading",
+      color: "text",
+      textShadow: "2px 2px 4px #f8f9fc",
     },
     h3: {
       color: "secondary",
     },
+    img: {
+      border: `2px solid`,
+      borderColor: "accent.1",
+      borderRadius: "50%",
+      p: 1,
+      width: 150,
+    },
+    ul: {},
   },
 }
 

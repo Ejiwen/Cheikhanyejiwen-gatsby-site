@@ -18,3 +18,30 @@
   /* padding: 0; */
   text-align: center;
 }
+
+ul {
+  /* text-align: left; */
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li::before {
+  content: "✰ ";
+  text-align: left;
+}
+
+.topLeftSide h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.topLeftSide p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.topLeftSide img {
+  display: block;
+  margin: auto;
+}
