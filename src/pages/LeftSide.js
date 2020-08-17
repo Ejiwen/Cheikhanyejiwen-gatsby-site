@@ -14,9 +14,8 @@ const LeftSide = () => {
         <Text variant="menu">
           <Menu />
         </Text>
-
-        <Contacts />
       </div>
+      <Contacts />
       <Footer />
     </div>
   )

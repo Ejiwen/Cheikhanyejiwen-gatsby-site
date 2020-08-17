@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  /* padding: 5px 15px; */
   align-content: center;
 }
 
@@ -20,15 +19,14 @@
 }
 
 ul {
-  /* text-align: left; */
-  list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  /* border: 1px solid #f70000; */
 }
 
 ul li::before {
   content: "✰ ";
-  text-align: left;
 }
 
 .topLeftSide h2 {

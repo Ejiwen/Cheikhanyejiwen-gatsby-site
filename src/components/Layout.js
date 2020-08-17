@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <Grid gap={0} columns={["22% 78%"]}>
       <Box className="sideBar" bg="background.0" sx={{ height: "100vh" }}>
         <Container>
-          <LeftSide />{" "}
+          <LeftSide />
         </Container>
       </Box>
       <Box p={2} bg="background.1">

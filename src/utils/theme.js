@@ -43,10 +43,11 @@ export const theme = {
   text: {
     heading: {},
     menu: {
-      // border: "solid red 2px",
       mt: 4,
       pb: 4,
-      pl: "90px",
+      position: "relative",
+      display: "flex",
+      justifyContent: "center",
     },
 
     contacts: {
