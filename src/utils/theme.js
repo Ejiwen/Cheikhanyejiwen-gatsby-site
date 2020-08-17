@@ -46,7 +46,7 @@ export const theme = {
       // border: "solid red 2px",
       mt: 4,
       pb: 4,
-      pl: 6,
+      pl: "90px",
     },
 
     contacts: {
