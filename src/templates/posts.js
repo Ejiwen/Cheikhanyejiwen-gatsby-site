@@ -20,8 +20,7 @@ const Posts = () => {
 
   return (
     <Layout>
-      {" "}
-      <PostsPage postsList={posts} />{" "}
+      <PostsPage postsList={posts} />
     </Layout>
   )
 }

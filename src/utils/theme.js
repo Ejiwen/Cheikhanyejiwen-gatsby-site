@@ -75,6 +75,10 @@ export const theme = {
     },
 
     post: {
+      m: 2,
+      p: 2,
+      border: "1px solid red",
+
       h3: {
         padding: 0,
         margin: 0,
@@ -91,6 +95,8 @@ export const theme = {
       color: "text",
       padding: 5,
       height: "100%",
+      display: "flex",
+      justifyContent: "center",
     },
   },
 
