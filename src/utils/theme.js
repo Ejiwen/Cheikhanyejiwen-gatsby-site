@@ -1,3 +1,5 @@
+import { Flex } from "theme-ui"
+
 export const theme = {
   useBodyStyles: true,
   breakpoints: ["40em", "56em", "64em"],
@@ -75,17 +77,38 @@ export const theme = {
     },
 
     post: {
-      m: 2,
-      p: 2,
-      border: "1px solid red",
+      m: 0,
+      p: 0,
+      borderRadius: 15,
+      minHeight: "250px",
+      display: "Flex",
+      flexDirection: "column",
+      justifyContent: "flex-end",
+      border: "1px solid rgba(0,0,0,.15)",
+
+      div: {
+        minHeight: "100%",
+        minWidth: "100%",
+      },
 
       h3: {
+        background: "white",
         padding: 0,
         margin: 0,
+        width: "100%",
       },
       span: {
         padding: 0,
         margin: 0,
+      },
+      a: {
+        padding: 0,
+        margin: 0,
+      },
+      img: {
+        border: "1px solid blue",
+        width: "100%",
+        height: "200px",
       },
     },
   },

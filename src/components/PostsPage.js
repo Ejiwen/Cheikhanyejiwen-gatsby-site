@@ -9,13 +9,20 @@ const PostsPage = ({ postsList }) => {
       <h3> RECENT WRITING </h3>
       <div className="indexPost">
         {postsList.map(post => (
-          <Text variant="post">
+          <div>
+            <Text
+              variant="post"
+              style={{
+                background: "url(" + post.introImg.file.url + ")",
+                backgroundClip: "padding-box",
+                backgroundSize: "cover",
+              }}
+            ></Text>
             <Link to={post.slug}>
+              <span>{post.publishedDate}</span>
               <h3> {post.title} </h3>
             </Link>
-
-            <span>{post.publishedDate}</span>
-          </Text>
+          </div>
         ))}
       </div>
 

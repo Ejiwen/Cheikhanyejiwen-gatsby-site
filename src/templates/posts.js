@@ -10,7 +10,14 @@ const Posts = () => {
         nodes {
           title
           slug
-          publishedDate
+          publishedDate(fromNow: true)
+
+          introImg {
+            id
+            file {
+              url
+            }
+          }
         }
       }
     }
