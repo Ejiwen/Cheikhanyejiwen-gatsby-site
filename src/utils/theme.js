@@ -1,19 +1,18 @@
-import { Flex } from "theme-ui"
-
 export const theme = {
   useBodyStyles: true,
   breakpoints: ["40em", "56em", "64em"],
   space: [0, 4, 8, 16, 32, 40, 64, 128, 256, 512],
   initialColorModeName: "light",
   colors: {
-    text: "#4D5362",
+    text: ["#4D5362", "#4D5362"],
     accent: ["#eebb4d", "white"],
     background: ["#ddd", "#f8f9fc"],
     primary: "#639",
     secondary: "#462121",
     modes: {
       dark: {
-        text: "#f8f9fc",
+        text: ["#f8f9fc", "#c8c8c8"],
+        secondary: "#ddd",
         background: ["#393e46", "#222831"],
         primary: "#eeeeee",
       },
@@ -131,7 +130,6 @@ export const theme = {
       // fontSize: 32,
       // fontWeight: "heading",
       color: "text",
-      textShadow: "2px 2px 4px #f8f9fc",
     },
     h3: {
       color: "secondary",
