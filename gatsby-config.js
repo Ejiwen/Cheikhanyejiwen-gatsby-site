@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   plugins: [
     "gatsby-plugin-theme-ui",
@@ -23,7 +27,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `6237eox9dm6z`,
-        accessToken: `NTl2ySG7s74M4rHEUAD5WhI8CDyDUubYp_NgyftBBqw`,
+        accessToken: process.env.ACCESS_TOKEN,
       },
     },
   ],
