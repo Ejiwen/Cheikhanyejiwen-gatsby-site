@@ -8,7 +8,8 @@ import { useColorMode } from "theme-ui"
 const Layout = ({ children }) => {
   const [colorMode, setColorMode] = useColorMode()
   return (
-    <Grid gap={0} columns={["22% 78%"]}>
+    // gap={0} columns={["22% 78%"]}
+    <Grid className="test-two-div">
       <Box className="sideBar" bg="background.0" sx={{ height: "100vh" }}>
         <Container>
           <LeftSide />

@@ -9,7 +9,13 @@
 .sideBar {
   position: sticky;
   top: 0;
+  /* min-width: 250px; */
   height: 100vh;
+}
+
+.test-two-div {
+  display: grid;
+  grid-template-columns: minmax(auto, 20%) minmax(auto, 80%) ;
 }
 
 .footer {
@@ -46,8 +52,9 @@
 
 .indexPost {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+    grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+    grid-gap: 20px;
+    min-width: 100%;
 }
 
 .indexPost h3 {
@@ -112,6 +119,23 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
+@media only screen and (max-width: 670px) {
+  .test-two-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .sideBar {
+    position: static;
+    /*top: 0;
+     min-width: 250px;
+    height: 100vh; */
+    margin-bottom: 0;
+  }
+
+}
+
 /* --------------------------- */
 
 code {
@@ -129,3 +153,4 @@ code {
   display: block;
   word-wrap: break-word;
 }
+
