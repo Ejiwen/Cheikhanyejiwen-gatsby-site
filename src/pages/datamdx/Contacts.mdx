@@ -14,8 +14,8 @@ import { Text } from "theme-ui"
   <Text variant="contacts">
     <div
       style={{
-        display: "flex",
-        justifyContent: "space-around",
+        display: "grid",
+        gridTemplateColumns: "repeat( auto-fit, minmax(22px, 1fr) )",
       }}
     >
       <FontAwesomeIcon icon={faGithubSquare} size="lg" />
@@ -23,7 +23,7 @@ import { Text } from "theme-ui"
       <FontAwesomeIcon icon={faMedium} size="lg" />
       <FontAwesomeIcon icon={faTwitterSquare} size="lg" />
       <FontAwesomeIcon icon={faLinkedin} size="lg" />
-      <FontAwesomeIcon icon={faYoutubeSquare} size="lg" />
+      {/* <FontAwesomeIcon icon={faYoutubeSquare} size="lg" /> */}
       <FontAwesomeIcon icon={faCodepen} size="lg" />
     </div>
   </Text>
