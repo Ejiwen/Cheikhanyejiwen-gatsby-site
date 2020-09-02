@@ -15,7 +15,7 @@
 
 .test-two-div {
   display: grid;
-  grid-template-columns: minmax(auto, 20%) minmax(auto, 80%) ;
+  grid-template-columns: minmax(200px, 20%) minmax(auto, 80%) ; 
 }
 
 .footer {
@@ -53,7 +53,7 @@
 .indexPost {
   display: grid;
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
-    grid-gap: 20px;
+    grid-gap: 15px;
     min-width: 100%;
     justify-content: space-around;
 }
@@ -154,4 +154,5 @@ code {
   display: block;
   word-wrap: break-word;
 }
+
 

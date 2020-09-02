@@ -80,9 +80,9 @@ export const theme = {
       p: 0,
       borderRadius: 15,
       minHeight: "250px",
-      display: "Flex",
-      flexDirection: "column",
-      justifyContent: "flex-end",
+      // display: "Flex",
+      // flexDirection: "column",
+      // justifyContent: "flex-end",
       border: "1px solid rgba(0,0,0,.15)",
 
       div: {
@@ -118,7 +118,7 @@ export const theme = {
       padding: 5,
       height: "100%",
       display: "flex",
-      justifyContent: "center",
+      // justifyContent: "center",
     },
   },
 
